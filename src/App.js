@@ -2,7 +2,7 @@ import CampsiteCard from './features/campsites/CampsiteCard.js';
 import { CAMPSITES } from './app/shared/CAMPSITES';
 import React from 'react';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import NucampLogo from './assets/img/logo.png';
+import NucampLogo from './app/assets/img/logo.png';
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
                     </NavbarBrand>
                 </Container>
             </Navbar>
-            <CampsiteCard campsite={CAMPSITES[0]} />   
+            <CampsiteCard campsite={CAMPSITES[0]} />
     </div>
   );
 }
