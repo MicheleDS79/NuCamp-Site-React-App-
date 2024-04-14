@@ -1,6 +1,6 @@
 import { Card, CardImg, CardText, CardBody, Col } from 'reactstrap';
 
-function CampsiteDetail ( {campsite} ) { // May need to redo this code
+const CampsiteDetail = ( {campsite} ) => { // May need to redo this code
     const { image, name, description } = campsite;
 
     return (
