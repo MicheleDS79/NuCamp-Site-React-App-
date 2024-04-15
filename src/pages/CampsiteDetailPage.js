@@ -14,7 +14,7 @@ const CampsiteDetailPage = () => {
                 </Row>
 
         </Container>
-    )
+    );
 };
 
 export default CampsiteDetailPage;
