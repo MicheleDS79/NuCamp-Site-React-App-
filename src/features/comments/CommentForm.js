@@ -11,8 +11,7 @@ const CommentForm = ({ campsiteId }) => {
     const dispatch = useDispatch();
 
     const handleSubmit = (values) => {
-        const comment =
-        {
+        const comment = {
             campsiteId: parseInt(campsiteId),
             rating: values.rating,
             author: values.author,
